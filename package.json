@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-recover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "clean": "rimraf artifacts & rimraf cache",
+    "rebuild": "npm run clean & npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  }
+}
